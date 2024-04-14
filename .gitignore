@@ -1,0 +1,17 @@
+# Ignore .env files
+.env
+
+# Ignore node_modules directory
+node_modules/
+*.log
+package-lock.json
+.vscode/
+.idea/
+.vs/
+.editorconfig
+*~
+.DS_Store
+build/
+dist/
+config/*.config.js
+secrets/
