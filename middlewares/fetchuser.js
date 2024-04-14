@@ -1,4 +1,5 @@
 const jwt=require('jsonwebtoken');
+require('dotenv').config()
 const JWT_SECRET=process.env.SECRET_KEY;
 const fetchuser=(req,res,next)=>{
 

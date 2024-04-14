@@ -2,7 +2,7 @@
 config.env
 
 # Ignore node_modules directory
-node_modules/
+/node_modules
 *.log
 package-lock.json
 
