@@ -6,14 +6,14 @@ const cors = require("cors");
 
 const app = express();
 
-function logger(req, res, next) {
-  console.log(" logger middleware executed ");
-  next();
-}
+// function logger(req, res, next) {
+//   console.log(" logger middleware executed ");
+//   next();
+// }
 
 app.use(cors());
 app.use(express.json());
-app.use(logger);
+// app.use(logger);
 
 const Auth = require("./Routes/auth");
 const Notes = require("./Routes/notes");
