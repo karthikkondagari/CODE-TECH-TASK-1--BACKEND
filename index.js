@@ -3,11 +3,12 @@ const cors = require("cors");
 // const connectToMongo = require("./db");
 // const dotenv = require("dotenv");
 // dotenv.config({ path: "/.env" });
-
+const dotenv = require("dotenv");
+dotenv.config();
 const app = express();
 
 // function logger(req, res, next) {
-//   console.log(" logger middleware executed ");
+//   console.log("middleware executed brooo");
 //   next();
 // }
 
