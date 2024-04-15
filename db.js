@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const app = require("./index");
-const port = 5000;
+const port = process.env.PORT;
 
 console.log(app.get("env"));
 console.log(process.env.MONGODB_URI);
