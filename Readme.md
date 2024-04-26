@@ -14,15 +14,15 @@ Implement real-time updates for tasks: Enable real-time updates for tasks to ref
 2.Enhance security measures: Implement additional security measures such as input validation, verification,encryption of sensitive data, and protection against common web vulnerabilities like XSS and CSRF.
 3.Made simple UI fo user a better Experience with responsive design
 
-![Login Page](Backend/Loginimg.png)
+![Login Page](Loginimg.png)
 *1. If a user already has an account in iDiary and enters correct credentials matching the token in the database, they will be redirected to the Home page.*
 
 *2. Once a user logs out from iDiary, the generated token will be deleted from the localStorage, and the user can't be redirected to the Home page. To continue, the user needs to follow the steps mentioned above.*
 
-![Home](Backend/Homeimg.png)
+![Home](Homeimg.png)
 *This is the Home page where users can add `Title`, `Description`, `Tags` in their respective iDiary entries, also indicating the Date.*
 
-![Update](Backend/Updateimg.png)
+![Update](Updateimg.png)
 *Users can edit their own iDiary tasks. Changes will be reflected with the newly updated date.*
 
 
